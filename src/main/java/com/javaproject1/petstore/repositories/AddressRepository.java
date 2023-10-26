@@ -1,0 +1,10 @@
+package com.javaproject1.petstore.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.javaproject1.petstore.entities.Address;
+
+public interface AddressRepository extends JpaRepository<Address, Integer>{
+    
+}
